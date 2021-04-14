@@ -1,0 +1,9 @@
+{ "namespace": "com.kafka.poc.avro",
+      "type": "record",
+      "name": "UserDetails",
+      "fields": [
+            {"name": "name", "type": "string"},
+            {"name": "id",  "type": "int"},
+            {"name": "loc", "type": "string"}
+      ]
+}

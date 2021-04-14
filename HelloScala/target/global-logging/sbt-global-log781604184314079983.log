@@ -1,0 +1,67 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[33mwarn[0m] [0m[0mThere may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m[[0m[0minfo[0m] [0m[0mConsidering source directories /Users/navaneetbadami/IdeaProjects/HelloScala/src/main/avro[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling AVSC /Users/navaneetbadami/IdeaProjects/HelloScala/src/main/avro/user.avsc to /Users/navaneetbadami/IdeaProjects/HelloScala/target/scala-2.13/src_managed/main/compiled_avro[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 19 Scala sources to /Users/navaneetbadami/IdeaProjects/HelloScala/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:29:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet(): Unit = println("Pet: Dog")[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:30:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_color(): Unit = println("Pet_color: White")[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:37:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet(): Unit =  println("Pet: cat")               //MyTrait1[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:38:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_color(): Unit =  println("Pet_color: black") //MyTrait1[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:39:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_age(): Unit =  println("Pet_age: 1m")        //MyTrait2[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:44:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet(): Unit =  println("Pet: Bird")              //MyTrait1[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:45:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_color(): Unit =  println("Pet_color: green") //MyTrait1[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:46:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_age(): Unit =  println("Pet_age: 2m")        //MyTrait2[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:47:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_desc(): Unit = println("Pet_Desc: Sweet")    //MyTrait3[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:56:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet(): Unit =  println("Pet: Fish")              //MyTrait1[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:57:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_color(): Unit =  println("Pet_color: Red")   //MyTrait1[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:58:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_age(): Unit =  println("Pet_age: 3m")        //MyTrait2[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:59:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_desc(): Unit = println("Pet_Desc: cute")     //MyTrait3[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:64:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet(): Unit =  println("Pet: Cow")              //MyTrait1[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:65:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_color(): Unit =  println("Pet_color: Cream")   //MyTrait1[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:66:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_age(): Unit =  println("Pet_age: 1Y")        //MyTrait2[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/navaneetbadami/IdeaProjects/HelloScala/src/main/scala/TraitExamples.scala:67:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def pet_desc(): Unit = println("Pet_Desc: VeryCute")     //MyTrait3[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m1 deprecation[0m
+[0m[[0m[33mwarn[0m] [0m[0m25 deprecations (since 2.13.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 deprecations (since 2.13.2)[0m
+[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.3)[0m
+[0m[[0m[33mwarn[0m] [0m[0m33 deprecations in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m22 warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 10 s, completed 6 Apr, 2021 9:25:34 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
